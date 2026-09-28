@@ -19,6 +19,6 @@
     </objectPermissions>
     <tabSettings>
         <tab>Test_Project__c</tab>
-        <visibility>Visible</visibility>
+        <visibility>Available</visibility>
     </tabSettings>
 </PermissionSet>
