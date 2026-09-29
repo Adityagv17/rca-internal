@@ -3,7 +3,7 @@
     <fullName>Block_Status_Change</fullName>
     <active>true</active>
     <description>If budget is greater than 1000 block status change</description>
-    <errorConditionFormula>Project_Budget__c  &lt; 5000 &amp;&amp; ISCHANGED( Status__c )</errorConditionFormula>
+    <errorConditionFormula>Project_Budget__c  &gt; 1000 &amp;&amp; ISCHANGED( Status__c )</errorConditionFormula>
     <errorDisplayField>Status__c</errorDisplayField>
     <errorMessage>Cannot change status when budget is greater than 1000</errorMessage>
 </ValidationRule>
