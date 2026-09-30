@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>false</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>QA Omni Support Queue</name>
+    <queueMembers>
+        <users>
+            <user>shreya.arora@gvmantra.com-dumpt_new</user>
+            <user>test-iz4pp8znf8yi@example.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>QA_Omni_Routing_Config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
