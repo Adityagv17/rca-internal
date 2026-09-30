@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales and Marketing Group</label>
+    <mutingPermissionSets>No_Account_Delete</mutingPermissionSets>
+    <permissionSets>Marketing_Access</permissionSets>
+    <permissionSets>Sales_Access</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
