@@ -5,7 +5,7 @@
     <assignments>
         <name>Assign_Description_Var</name>
         <label>Assign Description Var</label>
-        <locationX>50</locationX>
+        <locationX>264</locationX>
         <locationY>431</locationY>
         <assignmentItems>
             <assignToReference>var_TechDescription</assignToReference>
@@ -21,23 +21,23 @@
     <decisions>
         <name>Check_Industry</name>
         <label>Check Industry</label>
-        <locationX>182</locationX>
+        <locationX>176</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>Is_Media</name>
+            <name>Is_Technology</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Industry</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Media</stringValue>
+                    <stringValue>Technology</stringValue>
                 </rightValue>
             </conditions>
             <connector>
                 <targetReference>Assign_Description_Var</targetReference>
             </connector>
-            <label>Is Media</label>
+            <label>Is Technology</label>
         </rules>
     </decisions>
     <environments>Default</environments>
@@ -59,7 +59,7 @@
     <recordUpdates>
         <name>Update_Account</name>
         <label>Update Account</label>
-        <locationX>50</locationX>
+        <locationX>264</locationX>
         <locationY>539</locationY>
         <inputAssignments>
             <field>Description</field>
@@ -70,7 +70,7 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>56</locationX>
+        <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Check_Industry</targetReference>
@@ -79,7 +79,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>var_TechDescription</name>
         <dataType>String</dataType>
