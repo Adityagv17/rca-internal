@@ -23,4 +23,7 @@
     <queueSobject>
         <sobjectType>DynamicDataCapture</sobjectType>
     </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
 </Queue>
